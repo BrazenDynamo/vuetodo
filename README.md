@@ -1,23 +1,20 @@
 # todo
 
-## Project setup
+This is a functioning to-do app built in Vue.js, with front-end state management implemented using Vuex and routing using vue-router.
+
+### Install project dependencies
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Run development server
 ```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### Build for production
 ```
 yarn run build
-```
-
-### Run your tests
-```
-yarn run test
 ```
 
 ### Lints and fixes files
@@ -25,5 +22,7 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Roadmap
+- Add ability to edit tasks
+- Enable optional titles on tasks
+- Backend for user auth and data persistence
