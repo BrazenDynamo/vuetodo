@@ -7,7 +7,7 @@ import { mutations } from './mutations';
 export const state: TodoListState = {
   tasks: [],
   error: false,
-}
+};
 
 export const TodoList: Module<TodoListState, RootState> = {
   namespaced: true,
@@ -15,4 +15,4 @@ export const TodoList: Module<TodoListState, RootState> = {
   getters,
   actions,
   mutations,
-}
+};

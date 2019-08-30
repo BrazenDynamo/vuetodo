@@ -1,6 +1,6 @@
-import { RootState } from '@/types/types';
 import Vue from 'vue';
 import Vuex, { StoreOptions } from 'vuex';
+import { RootState } from '@/types/types';
 import { TodoList as todolist } from './todolist';
 import { User as user } from './user';
 

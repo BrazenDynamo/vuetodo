@@ -7,7 +7,7 @@ import { mutations } from './mutations';
 export const state: UserState = {
   user: undefined,
   error: false,
-}
+};
 
 export const User: Module<UserState, RootState> = {
   namespaced: true,
@@ -15,4 +15,4 @@ export const User: Module<UserState, RootState> = {
   getters,
   actions,
   mutations,
-}
+};

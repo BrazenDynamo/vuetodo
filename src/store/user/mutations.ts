@@ -10,5 +10,5 @@ export const mutations: MutationTree<UserState> = {
   logout(state) {
     state.error = false;
     state.user = undefined;
-  }
-}
+  },
+};

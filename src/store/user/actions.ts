@@ -7,5 +7,5 @@ export const actions: ActionTree<UserState, RootState> = {
       return;
     }
     commit('login', user);
-  }
-}
+  },
+};
